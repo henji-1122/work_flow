@@ -1,0 +1,19 @@
+{
+  "name": "work_flow",
+  "version": "1.0.0",
+  "description": "static web app workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henji-1122/wxc_workflow.git"
+  },
+  "author": "Wangxc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henji-1122/wxc_workflow/issues"
+  },
+  "homepage": "https://github.com/henji-1122/wxc_workflow#readme"
+}
