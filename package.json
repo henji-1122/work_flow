@@ -1,19 +1,36 @@
 {
-  "name": "work_flow",
-  "version": "1.0.0",
+  "name": "wxc_workflow",
+  "version": "0.1.0",
   "description": "static web app workflow",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "wxc_workflow",
+    "zce"
+  ],
+  "homepage": "https://github.com/Wangxc/wxc_workflow#readme",
+  "bugs": {
+    "url": "https://github.com/Wangxc/wxc_workflow/issues"
+  },
+  "license": "MIT",
+  "author": "虫虫 <2475886163@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/henji-1122/wxc_workflow.git"
+    "url": "git+https://github.com/Wangxc/wxc_workflow.git"
   },
-  "author": "Wangxc",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/henji-1122/wxc_workflow/issues"
+  "scripts": {
+    "lint": "standard --fix"
   },
-  "homepage": "https://github.com/henji-1122/wxc_workflow#readme"
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^13.1.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
 }
