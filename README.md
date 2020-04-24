@@ -24,8 +24,7 @@ $ npm install work_flow
 
 ```javascript
 const workFlow = require('work_flow')
-const result = workFlow('zce')
-// result => 'zce@zce.me'
+const result = workFlow('Wangxc')
 ```
 
 ## API
@@ -45,7 +44,7 @@ const result = workFlow('zce')
 
 - Type: `string`
 - Details: host string
-- Default: `'zce.me'`
+- Default: `''`
 
 ## Contributing
 
