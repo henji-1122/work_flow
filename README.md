@@ -24,7 +24,7 @@ $ npm install work_flow
 
 ```javascript
 const workFlow = require('work_flow')
-const result = workFlow('Wangxc')
+const result = workFlow('Wangxc_1111111')
 ```
 
 ## API
