@@ -1,17 +1,17 @@
 {
-  "name": "wxc_workflow",
+  "name": "work_flow",
   "version": "0.1.0",
   "description": "static web app workflow",
   "keywords": [
-    "wxc_workflow",
-    "zce"
+    "work_flow",
+    "Wangxc"
   ],
-  "homepage": "https://github.com/Wangxc/wxc_workflow#readme",
+  "homepage": "https://github.com/henji-1122/work_flow#readme",
   "bugs": {
-    "url": "https://github.com/Wangxc/wxc_workflow/issues"
+    "url": "https://github.com/henji-1122/work_flow/issues"
   },
   "license": "MIT",
-  "author": "虫虫 <2475886163@qq.com>",
+  "author": "Wangxc <2475886163@qq.com>",
   "files": [
     "lib"
   ],
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Wangxc/wxc_workflow.git"
+    "url": "git+https://github.com/henji-1122/work_flow.git"
   },
   "scripts": {
     "lint": "standard --fix"

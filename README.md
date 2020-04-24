@@ -1,4 +1,4 @@
-# wxc_workflow
+# work_flow
 
 [![NPM Downloads][downloads-image]][downloads-url]
 [![NPM Version][version-image]][version-url]
@@ -12,10 +12,10 @@
 ## Installation
 
 ```shell
-$ yarn add wxc_workflow
+$ yarn add work_flow
 
 # or npm
-$ npm install wxc_workflow
+$ npm install work_flow
 ```
 
 ## Usage
@@ -23,8 +23,8 @@ $ npm install wxc_workflow
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const wxcWorkflow = require('wxc_workflow')
-const result = wxcWorkflow('zce')
+const workFlow = require('work_flow')
+const result = workFlow('zce')
 // result => 'zce@zce.me'
 ```
 
@@ -32,7 +32,7 @@ const result = wxcWorkflow('zce')
 
 <!-- TODO: Introduction of API -->
 
-### wxcWorkflow(name[, options])
+### workFlow(name[, options])
 
 #### name
 
@@ -64,15 +64,15 @@ const result = wxcWorkflow('zce')
 
 
 
-[downloads-image]: https://img.shields.io/npm/dm/wxc_workflow.svg
-[downloads-url]: https://npmjs.org/package/wxc_workflow
-[version-image]: https://img.shields.io/npm/v/wxc_workflow.svg
-[version-url]: https://npmjs.org/package/wxc_workflow
-[license-image]: https://img.shields.io/github/license/Wangxc/wxc_workflow.svg
-[license-url]: https://github.com/Wangxc/wxc_workflow/blob/master/LICENSE
-[dependency-image]: https://img.shields.io/david/Wangxc/wxc_workflow.svg
-[dependency-url]: https://david-dm.org/Wangxc/wxc_workflow
-[devdependency-image]: https://img.shields.io/david/dev/Wangxc/wxc_workflow.svg
-[devdependency-url]: https://david-dm.org/Wangxc/wxc_workflow?type=dev
+[downloads-image]: https://img.shields.io/npm/dm/work_flow.svg
+[downloads-url]: https://npmjs.org/package/work_flow
+[version-image]: https://img.shields.io/npm/v/work_flow.svg
+[version-url]: https://npmjs.org/package/work_flow
+[license-image]: https://img.shields.io/github/license/Wangxc/work_flow.svg
+[license-url]: https://github.com/Wangxc/work_flow/blob/master/LICENSE
+[dependency-image]: https://img.shields.io/david/Wangxc/work_flow.svg
+[dependency-url]: https://david-dm.org/Wangxc/work_flow
+[devdependency-image]: https://img.shields.io/david/dev/Wangxc/work_flow.svg
+[devdependency-url]: https://david-dm.org/Wangxc/work_flow?type=dev
 [style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [style-url]: https://standardjs.com
