@@ -13,13 +13,13 @@
   "license": "MIT",
   "author": "虫虫 <2475886163@qq.com>",
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "main": "lib/index.js",
   "bin": "bin/work_flow.js",
   "directories": {
-    "lib": "lib",
-    "bin": "bin"
+    "lib": "lib"
   },
   "repository": {
     "type": "git",
