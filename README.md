@@ -22,6 +22,11 @@ $ npm install wangxc_work_flow
 
 <!-- TODO: Introduction of API use -->
 
+```javascript
+const workFlow = require('work_flow')
+const result = workFlow('Wangxc')
+```
+
 ## API
 
 <!-- TODO: Introduction of API -->
