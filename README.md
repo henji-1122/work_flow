@@ -18,6 +18,7 @@ $ yarn add work_flow
 $ npm install work_flow
 ```
 
+    <!-- // "gulp-imagemin": "^7.1.0", -->
 ## Usage
 
 <!-- TODO: Introduction of API use -->

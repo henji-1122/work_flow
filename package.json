@@ -4,6 +4,7 @@
   "description": "static web app workflow",
   "keywords": [
     "work_flow",
+    "gulp_flow",
     "Wangxc"
   ],
   "homepage": "https://github.com/henji-1122/work_flow#readme",
@@ -40,6 +41,7 @@
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^7.1.0",
     "gulp-load-plugins": "^2.0.3",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-swig": "^0.9.1",
     "gulp-uglify": "^3.0.2",
