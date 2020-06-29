@@ -12,21 +12,15 @@
 ## Installation
 
 ```shell
-$ yarn add work_flow
+$ yarn add wangxc_work_flow
 
 # or npm
-$ npm install work_flow
+$ npm install wangxc_work_flow
 ```
 
-    <!-- // "gulp-imagemin": "^7.1.0", -->
 ## Usage
 
 <!-- TODO: Introduction of API use -->
-
-```javascript
-const workFlow = require('work_flow')
-const result = workFlow('Wangxc')
-```
 
 ## API
 
