@@ -1,5 +1,5 @@
 # work_flow
-# static web app workflow (gulp) __ By WangXincun
+### static web app workflow (gulp) __ By WangXincun
 
 ## Installation
 
