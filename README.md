@@ -1,23 +1,37 @@
 # work_flow
 # static web app workflow (gulp) __ By WangXincun
 
-[![NPM Downloads][downloads-image]][downloads-url]
-[![NPM Version][version-image]][version-url]
-[![License][license-image]][license-url]
-[![Dependency Status][dependency-image]][dependency-url]
-[![devDependency Status][devdependency-image]][devdependency-url]
-[![Code Style][style-image]][style-url]
-
-> static web app workflow
-
 ## Installation
 
 ```shell
-$ yarn add wangxc_work_flow
+$ yarn add wangxc_work_flow --dev
 
 # or npm
-$ npm install wangxc_work_flow
+$ npm install wangxc_work_flow --save-dev
 ```
+
+in your package.json scripts:
+```js
+"scripts": {
+  "clean": "wangxc_work_flow clean",
+  "build": "wangxc_work_flow build",
+  "develop": "wangxc_work_flow develop"
+}
+```
+
+* CLI Usage:
+```js
+$ wangxc_work_flow <task> [options]
+```
+
+* eg
+```js
+# Runs the app in development mode
+$ wangxc_work_flow serve --port 5210 --open
+# Builds the app for production to the `dist` folder
+$ wangxc_work_flow build --production
+```
+
 
 ## Usage
 
@@ -27,6 +41,39 @@ $ npm install wangxc_work_flow
 const workFlow = require('work_flow')
 const result = workFlow('Wangxc')
 ```
+
+## Folder Structure
+```
+└── my-awesome-pages ································· project root
+   ├─ public ········································· static folder
+   │  └─ favicon.ico ································· static file (unprocessed)
+   ├─ src ············································ source folder
+   │  ├─ assets ······································ assets folder
+   │  │  ├─ fonts ···································· fonts folder
+   │  │  │  └─ pages.ttf ····························· font file (imagemin)
+   │  │  ├─ images ··································· images folder
+   │  │  │  └─ logo.png ······························ image file (imagemin)
+   │  │  ├─ scripts ·································· scripts folder
+   │  │  │  └─ main.js ······························· script file (babel / uglify)
+   │  │  └─ styles ··································· styles folder
+   │  │     ├─ _variables.scss ······················· partial sass file (dont output)
+   │  │     └─ main.scss ····························· entry scss file (scss / postcss)
+   │  ├─ layouts ····································· layouts folder
+   │  │  └─ basic.html ······························· layout file (dont output)
+   │  ├─ partials ···································· partials folder
+   │  │  └─ header.html ······························ partial file (dont output)
+   │  ├─ about.html ·································· page file (use layout & partials)
+   │  └─ index.html ·································· page file (use layout & partials)
+   ├─ .gitignore ····································· git ignore file
+   ├─ CHANGELOG.md ··································· repo changelog
+   ├─ README.md ······································ repo readme
+   ├─ gulpfile.js ···································· gulp tasks file
+   ├─ package.json ··································· package file
+   └─ yarn.lock ······································ yarn lock file
+```
+
+
+
 
 ## API
 
